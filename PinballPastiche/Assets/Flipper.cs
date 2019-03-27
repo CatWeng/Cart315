@@ -5,12 +5,12 @@ using UnityEngine;
 public class Flipper : MonoBehaviour
 {
     public Score thescore;
-    public string button = "LeftFlipper";
+    public string button = "Flipper";
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
