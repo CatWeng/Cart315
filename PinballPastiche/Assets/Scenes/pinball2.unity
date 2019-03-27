@@ -11551,7 +11551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToTP: {fileID: 484584528}
-  tpLoc: {fileID: 2027158167}
+  tpLoc: {fileID: 1464966193}
   player: {fileID: 0}
 --- !u!65 &1519647463
 BoxCollider:
