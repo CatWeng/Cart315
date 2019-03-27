@@ -11,7 +11,7 @@ public class Bumper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -30,13 +30,13 @@ public class Bumper : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (timer == 0)
-        {
-            thescore.AddScore(5);
-            thescore.Addmultiplier(1);
-        }
+      //  if (timer == 0)
+    //    {
+    //        thescore.AddScore(5);
+    //        thescore.Addmultiplier(1);
+    //    }
 
-        this.GetComponent<AudioSource>().Play();
+      //  this.GetComponent<AudioSource>().Play();
         this.GetComponent<ConstantForce>().enabled = true;
         timer = 3;
     }
