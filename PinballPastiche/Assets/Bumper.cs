@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bumper : MonoBehaviour
 {
-    public Score thescore;
+    //public Score thescore;
 
     private int timer = 0;
 

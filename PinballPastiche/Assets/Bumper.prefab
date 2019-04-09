@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c1210ed5f2dddc04f92505f83d1e39ed, type: 2}
+  - {fileID: 2100000, guid: 6268cb4a401ae414091a1130e76b0ff6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1101,7 +1101,7 @@ ConstantForce:
   m_GameObject: {fileID: 904357904443146714}
   m_Enabled: 0
   m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 300, z: 0}
+  m_RelativeForce: {x: 0, y: 400, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!114 &904357904443146691
@@ -1116,7 +1116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e04378a72d645489e9c364dc49c383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thescore: {fileID: 0}
 --- !u!82 &902770723460750299
 AudioSource:
   m_ObjectHideFlags: 0
