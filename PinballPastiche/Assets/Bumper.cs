@@ -36,7 +36,7 @@ public class Bumper : MonoBehaviour
     //        thescore.Addmultiplier(1);
     //    }
 
-      //  this.GetComponent<AudioSource>().Play();
+        this.GetComponent<AudioSource>().Play();
         this.GetComponent<ConstantForce>().enabled = true;
         timer = 3;
     }
